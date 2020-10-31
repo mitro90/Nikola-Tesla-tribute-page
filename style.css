@@ -1,0 +1,16 @@
+body {
+  background: lightgray;
+  color: black;
+  font-family: sans-serif;
+}
+
+#image {
+  max-width: 90%;
+  height: auto;
+  display: block;
+}
+
+#title,
+#opis {
+  text-align: center;
+}
