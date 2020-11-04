@@ -5,12 +5,46 @@ body {
 }
 
 #image {
-  max-width: 90%;
+  max-width: 80%;
   height: auto;
   display: block;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#title {
+  font-size: 48px;
 }
 
 #title,
 #opis {
   text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+#headline,
+#inventions {
+  margin: 50px 0;
+  text-align: center;
+} 
+
+.p1 {
+text-align: center;
+}
+
+#wiki {
+font-size: 20px;
+line-height: 1.6;
+text-align: center;
 }
