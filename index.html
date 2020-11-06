@@ -2,63 +2,52 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Survey Form</title>
-  <link rel="stylesheet" href="./style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Nikola Tesla Tribute Page</title>
 </head>
 
 <body>
-  <section id="main">
-    <h1 id="title">Car Owner Survey Form</h1>
-    <p id="description">In this survey you can tell us something about cars you have owned.</p>
-    <form id="survey-form">
-      <label id="name-label">Name:</label><br>
-      <input type="text" name="name" id="name" placeholder="First Name" required></input><br>
-      <label id="email-label">Email:</label><br>
-      <input type="email" name="email" id="email" placeholder="Email" required></input><br>
-      <label id="number-label">Number of cars owned:</label><br>
-      <input type="number" name="number" id="number" min="1" max="20" placeholder="1-20" required></input><br>
-      <label id="car-model-label">Favorite car model:</label>
-      <select id="dropdown" name="cars">
-        <option value="alfa">Alfa Romeo</option>
-        <option value="audi">Audi</option>
-        <option value="bmw">BMW</option>
-        <option value="skoda">Skoda</option>
-        <option value="volkswagen">VW</option>
-        <option value="other">Other</option>
-      </select><br>
-      <label id="car-type-label">Favorite car type:</label><br>
-      <input type="radio" name="radio" value="sedan">Sedan</input><br>
-      <input type="radio" name="radio" value="coupe">Coupe</input><br>
-      <input type="radio" name="radio" value="sportwagon">SportWagon</input><br>
+    <section id="main">
+        <div id="title">
+            <h1>Nikola Tesla</h1>
+            <p id="opis">The man who lit the world!</p>
+        </div>
 
-      <label id="car-color">Colors of the cars you owned:</label><br>
+        <div id="img-div">
+            <img id="image"
+                src="https://electrek.co/wp-content/uploads/sites/3/2020/09/Nikola-tesla.jpg?quality=82&strip=all"
+                alt="picture of Nikola Tesla" />
 
-      <input type="checkbox" id="color1" name="color1" value="White">
-      <label for="color1">White</label><br>
-      <input type="checkbox" id="color2" name="color2" value="Black">
-      <label for="color2">Black</label><br>
-      <input type="checkbox" id="color3" name="color3" value="Red">
-      <label for="color3">Red</label><br>
-      <input type="checkbox" id="color4" name="color4" value="Bike">
-      <label for="color4">Silver</label><br>
-      <input type="checkbox" id="color5" name="color5" value="Car">
-      <label for="color5">Orange</label><br>
-      <input type="checkbox" id="color6" name="color6" value="Boat">
-      <label for="color6">Blue</label><br>
+            <figcaption id="img-caption">In addition to inventing alternating current, Tesla managed to claim over 300
+                unique patents during his lifetime. It is a remarkable achievement for only one person.
+        </div>
 
-      <label for="car-text">Write something about your favorite car</label><br>
-      <textarea placeholder="Please type something about favorite car you have owned..." id="car-text" name="car-text"
-        rows="5" cols="40">
-
-</textarea><br>
-
-      <button type="submit" id="submit" form="survey-form" value="Submit">Submit</button>
-    </form><br>
-
-
-  </section>
+<div id="div1">        
+<p id="tribute-info">
+            <h3 id="headline"><strong>Short Tesla Biography</strong></h3>
+        <ul>
+            <li>This Sebian-American inventor was born 10. July 1856.</li>
+            <li>He died aged 86 in New York City, United States, 7. January 1943. </li>
+        </ul>
+        <h3 id="inventions"><strong>His greatest inventions:</strong></h3>
+        <ul>
+            <li>Alternating currents</li>
+            <li>Fluorescent bulbs</li>
+            <li>Electric motor</li>
+            <li>Tesla coil</li>
+            <li>Wireless communication</li>
+            <li>Radio</li>
+            <li>Remote control</li>
+            <li>X-ray</li>
+        </ul>
+        <p class="p1">And much more claiming over the 300 patents...</p>
+        </p>
+        <p id="wiki">If you want to find out more about Nikola tesla you can <a id="tribute-link"
+                href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">click here</a>.</p>
+</div>
+    </section>
 </body>
 
 </html>
